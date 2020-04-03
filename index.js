@@ -21,7 +21,7 @@ var v1 = new Vue({
           rendered Template: {{ message }}
           <input v-on:input="inputTextChange" type="text"/>
         </div>
-        <span> {{ message }} </span>
+        <span> {{ message.split('').reverse().join('') }} </span>
       </div>
     `
 })

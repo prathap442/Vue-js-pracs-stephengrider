@@ -21,3 +21,40 @@
 * template:
   - this can be of the two types like the normal template that exists in the html 
   - the rendered template that can be of the sub html can be attached directly to the Vue instance .
+
+
+# the computed functions
+
+* These are being declared under the keyword called as the computed that can be utilised as of this way
+
+
+```
+new Vue({
+  el: "#app",
+  computed:{
+    identicon: function(){ // this is the computed function1
+      console.log("This is the computed function with name: identicon");
+    },
+    progress: function(){ // this is the computed function2
+      console.log("This is the progressive function");
+    }
+  },
+  data:{ // This can be injected into the html template
+    message: "This is the text message1",
+    hugo: "THis is the hugo1"
+  }
+})
+```
+* These computed functions can be utilised in the Vue Templates
+
+# Interpolated Values 
+- in the template can also take up the javascript expressions 
+
+so if we take values to be injected into the template and the data can also be modified at the instinct by using the javascript expressions
+```
+  {{ message.split('').reverse().join('') }}
+```
+
+The message can be split and then can be reversed and then joined to get the output .
+
+
