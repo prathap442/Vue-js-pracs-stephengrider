@@ -58,5 +58,5 @@ so if we take values to be injected into the template and the data can also be m
 The message can be split and then can be reversed and then joined to get the output .
 
 # Final Output of the Task
-![alt Thisisoutput](https://github.com/prathap442/Vue-js-pracs-stephengrider/blob/master/multi_parking_lot_sketch_brief.jpeg)
+![alt Thisisoutput](https://github.com/prathap442/Vue-js-pracs-stephengrider/blob/master/Peek%202020-04-03%2010-38.gif)
 
